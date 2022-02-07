@@ -36,7 +36,7 @@ The consumer connect to `amqp://guest:guest@localhost:5672`, and consume message
 
 When the consumer disconnected the queue is automatically deleted.
 
-n the .NET client, when we supply no parameters to QueueDeclare() we create a non-durable, exclusive, autodelete queue with a generated name:
+In the .NET client, when we supply no parameters to QueueDeclare() we create a non-durable, exclusive, autodelete queue with a generated name:
 
 ```c#
 var queueName = channel.QueueDeclare().QueueName;
@@ -58,7 +58,7 @@ dotnet run
 ```
 
 Check the logs of the consumer and producer.
-On Rabbit dashboard, open "Exhange" page, to check `logs` exchange details and its binding queues.
+On Rabbit dashboard, open "Exhange" page, and check `logs` exchange details and its binding queues.
 
 ## References
 - [RabbitMQ tutorial - Publish/Subscribe](https://www.rabbitmq.com/tutorials/tutorial-three-dotnet.html)
