@@ -1,5 +1,4 @@
 [TOC]
-[TOC]
 
 # RabbitMQ Pub/sub in .NET
 
